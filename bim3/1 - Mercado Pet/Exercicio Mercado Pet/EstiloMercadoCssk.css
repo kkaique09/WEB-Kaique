@@ -1,0 +1,65 @@
+#topo {
+ position: relative;
+ background: #dbcd87;
+ height: 15px;
+ min-height: 250px;
+}
+#area-logo {
+    position: absolute;
+    background: url("topo-imagem-principal.jpeg")no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+    .logo a {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 3;
+        background: url(logo1.jpeg) no-repeat;
+        width: 151px;
+        height: 66px;
+        text-indent: -9000px; }
+        #area-menu {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url("topo-imagem-lateral.png") no-repeat; ;
+            width: 450px;
+            height: 250px;
+            z-index: 2;}
+            #menu-locais .locais {
+                float: left;}
+                
+                a {text-decoration: none; }
+                
+                a.reserva {
+                text-transform: uppercase;
+                background: #a29750;
+                color: #fff5b0;
+                padding: 5px 10px;
+                float: right;}
+                #menu { margin-top: 15px;
+                float:left;}
+                
+
+                ul { list-style: none; }
+                
+                ul#navegacao { float: left; }
+                
+                ul#navegacao a {
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                    padding: 5px;
+                    color: #6e672c;
+                    line-height: 30px;}
+                
+                ul#navegacao a:hover {background: #fdf6be; }
+                
+                .depoimento {
+                    width: 226px;
+                    height: 164px;
+                    float: right; }
+                
+                
